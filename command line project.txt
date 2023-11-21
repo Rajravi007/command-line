@@ -1,0 +1,529 @@
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ pwd
+/d/raj/lingua-franca
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ ls
+africa/  asia/  europe/  northamerica/  southamerica/  spanish.txt  todo/
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ mkdir world
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ ls
+africa/  asia/  europe/  northamerica/  southamerica/  spanish.txt  todo/  world/
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd world
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/world
+$ touch esperanto.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/world
+$ ls
+esperanto.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/world
+$ ls -alt
+total 4
+-rw-r--r-- 1 mrvsr 197609 0 Nov 20 20:43 esperanto.txt
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:43 ./
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:43 ../
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/world
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ ls -alt
+total 8
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:43 world/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:43 ./
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 todo/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 southamerica/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 northamerica/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 europe/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 asia/
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 africa/
+-rw-r--r-- 1 mrvsr 197609 0 Nov 20 20:42 spanish.txt
+drwxr-xr-x 1 mrvsr 197609 0 Nov 20 20:42 ../
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd europe
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/europe
+$ ls
+chinese.txt  english.txt  french.txt  german.txt  italian.txt  portuguese.txt  russian.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/europe
+$ mv chinese.txt ../asia
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/europe
+$ ls
+english.txt  french.txt  german.txt  italian.txt  portuguese.txt  russian.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/europe
+$ cd ../asia
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ ls
+arabic.txt  chinese.txt  hebrew.txt  hindi.txt  japanese.txt  korean.txt  malay.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ pwd
+/d/raj/lingua-franca
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cp spanish.txt europe
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cp spanish.txt northamerica
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cp spanish.txt southamerica
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ rm spanish.txt lingua-franca
+rm: cannot remove 'lingua-franca': No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ rm spanish.txt
+rm: cannot remove 'spanish.txt': No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ ls
+africa/  asia/  europe/  northamerica/  southamerica/  todo/  world/
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd todo
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ ls
+africa/  asia/  europe/
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd africa
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo/africa
+$ ls
+afrihili.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo/africa
+$ cp afrihili.txt ../../africa
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo/africa
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cp asia/* ../asia
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cp europe/* ../europe
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm todo/*
+rm: cannot remove 'todo/*': No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ rm todo/*
+rm: cannot remove 'todo/africa': Is a directory
+rm: cannot remove 'todo/asia': Is a directory
+rm: cannot remove 'todo/europe': Is a directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd todo
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ ls
+africa/  asia/  europe/
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm -r todo
+rm: cannot remove 'todo': No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd todo
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm africa
+rm: cannot remove 'africa': Is a directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm -r africa/asia/europe
+rm: cannot remove 'africa/asia/europe': No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm -r africa
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm -r asia
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ rm -r europe
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ ls
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd ../asia
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ ls
+arabic.txt  bengali.txt  chinese.txt  hebrew.txt  hindi.txt  japanese.txt  korean.txt  malay.txt  punjabi.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ cp * ../todo/asian_language_files.txt
+cp: target '../todo/asian_language_files.txt' is not a directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ ls > ../todo/asian_language_files.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/asia
+$ cd ../todo
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ ls
+asian_language_files.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cat asian_language_files.txt
+arabic.txt
+bengali.txt
+chinese.txt
+hebrew.txt
+hindi.txt
+japanese.txt
+korean.txt
+malay.txt
+punjabi.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd ../africa
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/africa
+$ echo "welkom by die lingua franca vertaaldienste" > afrikaans.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/africa
+$ cat afrikaans.txt
+welkom by die lingua franca vertaaldienste
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/africa
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ grep -i *.txt | wc
+wc
+wc -l */*.txt | grep 0 >todo/empty_files.txt
+cd todo
+ls
+
+[1]+  Stopped                 grep -i *.txt | wc
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ wc -l */*.txt | grep 0 > todo/empty_files.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ cd todo
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ ls
+asian_language_files.txt  empty_files.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cat empty_files.txt
+  0 africa/afrihili.txt
+  0 asia/bengali.txt
+  0 asia/chinese.txt
+  0 asia/hebrew.txt
+  0 asia/hindi.txt
+  0 asia/japanese.txt
+  0 asia/punjabi.txt
+  0 europe/french.txt
+  0 europe/german.txt
+  0 europe/italian.txt
+  0 europe/russian.txt
+  0 europe/spanish.txt
+  0 europe/yiddish.txt
+  0 northamerica/french.txt
+  0 northamerica/spanish.txt
+  0 southamerica/spanish.txt
+  0 world/esperanto.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ sed -i 's/Lingua-Franca/Lingua Franca/g' *.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+sed: can't read */*.txt: No such file or directory
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca/todo
+$ cd ..
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ grep -Rl 'Lingua Franca' */*.txt | wc -l
+6
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj.txt
+bash: hello: command not found
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj.txt
+bash: hello: command not found
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj.txt
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj
+bash: hello: command not found
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj
+hello coder
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj
+hello coder
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ md raj
+mkdir: cannot create directory ‘raj’: File exists
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ md india
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ hy
+    1  ls
+    2  mkdir test
+    3  ls
+    4  cd test
+    5  pwd
+    6  echo "hello command line" >> hello_cli.txt
+    7  ls
+    8  cat hello_cli.txt
+    9  pwd
+   10  pwd
+   11  lsr
+   12  ls
+   13  cd dowload
+   14  cd download
+   15  cd downloads
+   16  ls
+   17  cd bdcamsetup.exe
+   18  lingua-franca-project
+   19  cd lingua-franca-project
+   20  cat lingua-franca-project
+   21  cat lingua-franca-project.zip
+   22  mkdir world
+   23  cd world
+   24  touch esperanto.txt
+   25  cd..
+   26  cd ..
+   27  pwd
+   28  cd world
+   29  ls
+   30  pwd
+   31  cd download
+   32  cd downloads
+   33  cd lingua-franca
+   34  ls
+   35  pwd
+   36  ls
+   37  mkdir world
+   38  ls
+   39  cd world
+   40  touch esperanto.txt
+   41  ls
+   42  ls -alt
+   43  cd ..
+   44  ls -alt
+   45  cd europe
+   46  ls
+   47  mv chinese.txt ../asia
+   48  ls
+   49  cd ../asia
+   50  ls
+   51  cd ..
+   52  pwd
+   53  cp spanish.txt europe
+   54  cp spanish.txt northamerica
+   55  cp spanish.txt southamerica
+   56  rm spanish.txt lingua-franca
+   57  rm spanish.txt
+   58  ls
+   59  cd todo
+   60  ls
+   61  cd africa
+   62  ls
+   63  cp afrihili.txt ../../africa
+   64  cd ..
+   65  cp asia/* ../asia
+   66  cp europe/* ../europe
+   67  rm todo/*
+   68  cd ..
+   69  rm todo/*
+   70  cd todo
+   71  ls
+   72  rm -r todo
+   73  cd ..
+   74  cd todo
+   75  rm africa
+   76  rm -r africa/asia/europe
+   77  rm -r africa
+   78  rm -r asia
+   79  rm -r europe
+   80  ls
+   81  cd ../asia
+   82  ls
+   83  cp * ../todo/asian_language_files.txt
+   84  ls > ../todo/asian_language_files.txt
+   85  cd ../todo
+   86  ls
+   87  cat asian_language_files.txt
+   88  cd ../africa
+   89  echo "welkom by die lingua franca vertaaldienste" > afrikaans.txt
+   90  cat afrikaans.txt
+   91  cd ..
+   92  grep -i *.txt | wc
+   93  wc -l */*.txt | grep 0 > todo/empty_files.txt
+   94  cd todo
+   95  ls
+   96  cat empty_files.txt
+   97  sed -i 's/Lingua-Franca/Lingua Franca/g' *.txt
+   98  sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+   99  cd ..
+  100  sed -i 's/Lingua-Franca/Lingua Franca/g' */*.txt
+  101  grep -Rl 'Lingua Franca' */*.txt | wc -l
+  102  nano raj.txt
+  103  source raj.txt
+  104  source raj.txt
+  105  nano raj.txt
+  106  nano raj
+  107  source raj
+  108  nano raj
+  109  source raj
+  110  nano raj
+  111  source raj
+  112  md raj
+  113  md india
+  114  hy
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ d
+Mon Nov 20 21:57:15 IST 2023
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ nano raj
+
+mrvsr@DESKTOP-TDGD2FL MINGW64 /d/raj/lingua-franca
+$ source raj
+hello coder
+## md
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+## d
+Mon Nov 20 21:58:29 IST 2023
+## env
+ProgramFiles(x86)=C:\Program Files (x86)
+!::=::\
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+SHELL=/usr/bin/bash
+NUMBER_OF_PROCESSORS=4
+FPS_BROWSER_USER_PROFILE_STRING=Default
+PROCESSOR_LEVEL=23
+TERM_PROGRAM_VERSION=3.6.4
+MINGW_PREFIX=/mingw64
+PKG_CONFIG_PATH=/mingw64/lib/pkgconfig:/mingw64/share/pkgconfig
+USERDOMAIN_ROAMINGPROFILE=DESKTOP-TDGD2FL
+HOSTNAME=DESKTOP-TDGD2FL
+PROGRAMFILES=C:\Program Files
+MSYSTEM=MINGW64
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ORIGINAL_TEMP=/tmp
+MINGW_CHOST=x86_64-w64-mingw32
+OS=Windows_NT
+HOMEDRIVE=C:
+MSYSTEM_CARCH=x86_64
+USERDOMAIN=DESKTOP-TDGD2FL
+PWD=/d/raj/lingua-franca
+USERPROFILE=C:\Users\mrvsr
+OneDriveConsumer=C:\Users\mrvsr\OneDrive
+MANPATH=/mingw64/local/man:/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+ALLUSERSPROFILE=C:\ProgramData
+ORIGINAL_PATH=/mingw64/bin:/usr/bin:/c/Users/mrvsr/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Users/mrvsr/AppData/Local/Microsoft/WindowsApps:/c/Users/mrvsr/AppData/Local/Programs/Microsoft VS Code/bin
+CommonProgramW6432=C:\Program Files\Common Files
+HOME=/c/Users/mrvsr
+USERNAME=mrvsr
+SSH_ASKPASS=/mingw64/bin/git-askpass.exe
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\mrvsr\OneDrive
+COMSPEC=C:\WINDOWS\system32\cmd.exe
+TMPDIR=/tmp
+APPDATA=C:\Users\mrvsr\AppData\Roaming
+SYSTEMROOT=C:\WINDOWS
+LOCALAPPDATA=C:\Users\mrvsr\AppData\Local
+COMPUTERNAME=DESKTOP-TDGD2FL
+INFOPATH=/mingw64/local/info:/mingw64/share/info:/usr/local/info:/usr/share/info:/usr/info:/share/info
+TERM=xterm
+LOGONSERVER=\\DESKTOP-TDGD2FL
+ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+TEMP=/tmp
+MSYSTEM_CHOST=x86_64-w64-mingw32
+DISPLAY=needs-to-be-defined
+ORIGINAL_TMP=/tmp
+SHLVL=1
+PROCESSOR_REVISION=1801
+DriverData=C:\Windows\System32\Drivers\DriverData
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+LC_CTYPE=en_US.UTF-8
+EXEPATH=C:\Program Files\Git
+PROCESSOR_IDENTIFIER=AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+SESSIONNAME=Console
+PS1=##
+PKG_CONFIG_SYSTEM_LIBRARY_PATH=/mingw64/lib
+HOMEPATH=\Users\mrvsr
+TMP=/tmp
+CONFIG_SITE=/etc/config.site
+PATH=/c/Users/mrvsr/bin:/mingw64/bin:/usr/local/bin:/usr/bin:/bin:/mingw64/bin:/usr/bin:/c/Users/mrvsr/bin:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/WINDOWS/System32/OpenSSH:/cmd:/c/Users/mrvsr/AppData/Local/Microsoft/WindowsApps:/c/Users/mrvsr/AppData/Local/Programs/Microsoft VS Code/bin:/usr/bin/vendor_perl:/usr/bin/core_perl
+ProgramW6432=C:\Program Files
+MSYSTEM_PREFIX=/mingw64
+WINDIR=C:\WINDOWS
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+PROCESSOR_ARCHITECTURE=AMD64
+PUBLIC=C:\Users\Public
+PKG_CONFIG_SYSTEM_INCLUDE_PATH=/mingw64/include
+MSYS=disable_pcon
+SYSTEMDRIVE=C:
+EFC_6064=1
+OLDPWD=/d/raj/lingua-franca/todo
+TERM_PROGRAM=mintty
+ProgramData=C:\ProgramData
+_=/usr/bin/env
+##
